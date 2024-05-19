@@ -140,8 +140,8 @@ app.post("/formulaire", async (req, res) => {
 
     var mailOptions = {
       from: "farisbrandone0@gmail.com",
-      to: "farisbrandone@yahoo.com",
-      subject: "Sending Email using Node.js",
+      to: "info@togotourisme.com",
+      subject: `donnée d'enregistrment de ${req.body.nom}`,
       html: mailoutput,
     };
 
